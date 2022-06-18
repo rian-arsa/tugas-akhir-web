@@ -1,0 +1,264 @@
+.wrap {
+    width: 100%;
+    margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header {
+    /*height: 50px;*/
+    padding: 50px 10px 0 10px;
+}
+
+.wrap .header h1 {
+    color: white;
+    font-size: 64px;
+    text-shadow: 2px 2px grey;
+}
+
+.wrap .header h5 {
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu {
+    color: black;
+}
+
+.wrap .menu ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wrap .menu ul li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.wrap .menu ul li a {
+    color: grey;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: white;
+    font-weight: bold;
+}
+
+/*akhir menu*/
+
+.clear {
+    clear: both;
+}
+
+.wrap .badan {
+    min-height: 450px;
+    max-width: 999px;
+}
+
+.wrap .badan h5 {
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+.wrap .footer {
+    width: 100%;
+    padding: 10px;
+}
+
+.backgroundd {
+    background-image: url("../images/kk1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.background {
+    width: 100%;
+    height: 154px;
+    background-image: url(../img/Capture.PNG);
+    border-bottom: 10px solid black;
+}
+
+.logo {
+    width: 60%;
+    height: 154px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.logo .um {
+    padding-top: 40px;
+    padding-left: 50px;
+    width: 80px;
+    float: left;
+}
+
+.logo h1 {
+    padding-top: 53px;
+    padding-left: 15px;
+    color: rgb(1, 10, 59);
+    font-size: 45px;
+    float: left;
+    font-weight: bold;
+}
+
+.about {
+    width: 40%;
+    height: 154px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 400px;
+}
+
+.link ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    padding-top: 85px;
+    padding-left: 20px;
+}
